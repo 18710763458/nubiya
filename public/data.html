@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>努比亚官方网站初始页面</title>
+	</head>
+	<body>
+		<script>
+			//手机列表
+			var dhsj = [{
+				imgurl:'../source/img/150779044081.png',
+				name:'Z17S全面屏'
+			},{
+				imgurl:'../source/img/150779051689.png',
+				name:'Z17miniS小牛8'
+			},{
+				imgurl:'../source/img/150112378262.png',
+				name:'Z17 旗舰版'
+			},{
+				imgurl:'../source/img/150407581875.png',
+				name:'Z17 畅享版'
+			},{
+				imgurl:'../source/img/149750591120.png',
+				name:'Z17 mini'
+			},{
+				imgurl:'../source/img/149622411546.png',
+				name:'Z11'
+			}];
+			console.log(dhsj);
+			var dhsjString = JSON.stringify(dhsj);
+			console.log(dhsjString);
+			localStorage.setItem('dh',dhsjString);
+			
+//			配件列表
+			var dhpj = [{
+				imgurl:'../source/img/2DFC3651-B198-4372-80E9-3C1D683D6D95.png',
+				name:'保护壳'
+			},{
+				imgurl:'../source/img/ADA0399C-C97D-4E3F-9B27-7433DA0A728A.png',
+				name:'皮套'
+			},{
+				imgurl:'../source/img/6C5E3A48-870E-4A8A-940E-A07C48C1C3D7.png',
+				name:'贴膜'
+			},{
+				imgurl:'../source/img/478F18CA-7184-4067-A87D-78DCB7E40DFD.png',
+				name:'耳机'
+			},{
+				imgurl:'../source/img/EF79162F-E553-45F9-B306-7059428E36CD.png',
+				name:'数据线/充电器'
+			},{
+				imgurl:'../source/img/B5C0E422-7830-46E6-84B2-3AADBB987DC4.png',
+				name:'周边产品'
+			}];
+			console.log(dhpj);
+			var dhpjString = JSON.stringify(dhpj);
+			console.log(dhpjString);
+			localStorage.setItem('dhpj',dhpjString);
+			
+//			摄影列表
+			var dhsy = [{
+				imgurl:'../source/img/2222442.png',
+				name:'努比亚摄影引擎'
+			},{
+				imgurl:'../source/img/2222222.png',
+				name:'摄影长廊'
+			},{
+				imgurl:'../source/img/869458564.png',
+				name:'延时摄影'
+			},{
+				imgurl:'../source/img/1111.png',
+				name:'星空之约'
+			}];
+			var dhpjString2 = JSON.stringify(dhsy);
+			localStorage.setItem('dhsy',dhpjString2);
+			console.log(dhsy);
+			
+			//ui列表
+			var dhui = [{
+				imgurl:'../source/img/nubiaui-logo.png',
+				name:'niubia UI 5.0'
+			},{
+				imgurl:'../source/img/323232.png',
+				name:'ROM下载'
+			},{
+				imgurl:'../source/img/444445.png',
+				name:'UI社区'
+			},{
+				imgurl:'../source/img/55555555.png',
+				name:'云服务'
+			},,{
+				imgurl:'../source/img/89798.png',
+				name:'应用'
+			}];
+			var dhpjString3 = JSON.stringify(dhui);
+			localStorage.setItem('dhui',dhpjString3);
+			
+			
+			
+			
+			
+			
+			
+			var yhxxdg = {
+				zh:'zhuyulong',
+				mm:'zhuyulong1'
+			};
+			var yhxx = [{
+				zh:'wangjing',
+				mm:'wangjing1'
+			},{
+				zh:'zhuyulong',
+				mm:'zhuyulong1'
+			},{
+				zh:'xutianyun',
+				mm:'xutianyun1'
+			}];
+			var yhString = JSON.stringify(yhxx);
+			localStorage.setItem('yh',yhString);
+			console.log(yhxx);
+		</script>
+	</body>
+</html>
